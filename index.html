@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React JS Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u> * Introduction Of React JS</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. What is React?</h4>
+        <h4>2. Working Of DOM</h4>
+        <h4>3. Problems with JS</h4>
+        <h4>4. Working of React</h4>
+        <h4>5. JS vs React</h4>
+        <h4>6. Intro Of Components</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>What is React js ?</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. React is a JavaScript library for building user interfaces.</h4>
+        <h4>2. Devloped at Facebook 2011.</h4>
+        <h4>3. React is used to build [SPA] single-page applications.</h4>
+        <h4>4. React allows us to create reusable UI components.</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Working Of DOM</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. Browser takes HTML and create DOM.</h4>
+        <h4>2. JS helps us modify DOM based on user actions or events.</h4>
+        <h4>3. In big applications, Working with DOM becomes complicated.</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Problems with JS</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. React has a simpler mental model.</h4>
+        <h4>2. JS is cumbersom [Heavy].</h4>
+        <h4>3. JS is Error-prone.</h4>
+        <h4>4. JS is Hard to maintain.</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Working of React</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. No need to worry about querying and updating DOM elements.</h4>
+        <h4>2. React creates a web page with small and reusable components.</h4>
+        <h4>3. React will take care of creating and updating DOM elements.</h4>
+        <h4>
+          4. IT saves a lot of time, cheezein aasan hai, pahele se likhi hui
+          hain.
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>JS vs React</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          1. JS is imperative: You define steps to reach your desired state.
+        </h4>
+        <h4>
+          2. React is Declarative: You define the target UI state and then react
+          figures out how to reach that state.
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Introduction Of Components</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          1. Components help us write reusable, modular and better organized
+          code.
+        </h4>
+        <h4>
+          2. React application is a tree of components with App Component as the
+          root bringing everything together.
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u> * Create a React App</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>7. Setup a IDE</h4>
+        <h4>8. Create a React App</h4>
+        <h4>9. Project Structure</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Setup a IDE [What is IDE ?]</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. IDE stands for Integrated Development Environment.</h4>
+        <h4>
+          2. Software suite that consolidates basic tools required for software
+          development.
+        </h4>
+        <h4>3. Central hub for coding, finding problems, and testing.</h4>
+        <h4>4. Designed to improve developer efficiency.</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Setup a IDE [Need Of IDE]</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. Streamlines development.</h4>
+        <h4>2. Increase Productivity.</h4>
+        <h4>3. Simplifies Complex Tasks.</h4>
+        <h4>4. Offers a unified workspace.</h4>
+        <h4>
+          5. IDE Feactures
+          <h6>1. Code Autocomplete</h6>
+          <h6>2. Syntax Highlight</h6>
+          <h6>3. Version Control</h6>
+          <h6>4. Error Chocking</h6>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Setup a IDE [Installation & Setup]</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>Search & Download Node js</h4>
+        <h4>Search & Download VS Code Editor</h4>
+        <h4>Keep your Software up to date</h4>
+        <h4>
+          VS Code Extentions & Settings
+          <h6>1. Live Server/Live Preview</h6>
+          <h6>2. Prettier (Format & Saves)</h6>
+          <h6>3. Line Wrap</h6>
+          <h6>4. Tab Size from 4 to 2</h6>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Create a React App</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          1. Official tool is CRA (Create React APP) <br />
+          Install React App :
+          <p>[npx create-react-app projectName]</p>
+
+          Run :
+          <p>[npm start]</p>
+        </h4>
+        <h4>2. Vite is a modern tool to create React Project.</h4>
+        <h4>
+          3. Vite produces Quick and Small bundle size. Install Vite :
+          <p>[npm create vite@latest]</p>
+          Run :
+          <p>[npm run dev]</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Project Structure</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          1. node Module: <br />
+          <p>Has all the installed node packages.</p>
+        </h4>
+        <h4>
+          2. Public: <br />
+          <p>Contains static files that don't changes.</p>
+        </h4>
+        <h4>
+          3. src:
+          <p>
+            Main folder for the React code. Reusable components of the UI, like
+            buttons or headers. In assets images, fonts, and other static files.
+          </p>
+        </h4>
+        <h4>
+          4. package.json:
+          <p>
+            contains information about this project like name, version,
+            dependencies on other react packages
+          </p>
+        </h4>
+        <h4>
+          5. vite.config.js
+          <p>contains vite confi</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u> * Creating React Components</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>10. File Extentions</h4>
+        <h4>11. Classes vs Functions</h4>
+        <h4>12. What is JSX</h4>
+        <h4>13. Exporting Component</h4>
+        <h4>14. Other Importing Points</h4>
+        <h4>15. Dynamic Component</h4>
+        <h4>16. Resusble Component</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>File Extentions</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          . JS <br />
+          <p>
+            Stands for JavaScript <br />
+            Contains Regular JavaScript Code <br />
+            Used for genral Logic and components
+          </p>
+        </h4>
+        <h4>
+          . JSX <br />
+          <p>
+            Stands for JavaScript XML <br />
+            Combines JavaScript with HTML-like tags <br />
+            Makes it easier to design UI component
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Classes vs Function Component</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Class Component <br />
+          <p>
+            1. StateFull: Can manage state. <br />
+            2. Lifecycle: Access to lifecycle methods. <br />
+            3. Verbose: More boilerplate code.
+          </p>
+        </h4>
+        <h4>
+          Function Component <br />
+          <p>
+            1. Initial Stateless. <br />
+            2. Can Use Hooks for state and effects. <br />
+            3. Simplear and more concise, More Populer.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>What is JSX</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Definition:
+          <p>
+            JSX determines how the UI will look wherever the component is used
+          </p>
+        </h4>
+        <h4>
+          Not HTML:
+          <p>
+            Though it resembles HTML, you're actually writing JSX, which stands
+            for JavaScript XML
+          </p>
+        </h4>
+        <h4>
+          Conversion:
+          <p>JSX gets converted to regular JavaScript</p>
+        </h4>
+        <h4>
+          Codding JSX:
+          <p>
+            JSX allows us to write HTML elements in JavaScript and place them in
+            the DOM without any createElement() and/or appendChild() methods.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Exporting Components</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Use Component:
+          <p>Enables the use of a component in other parts.</p>
+        </h4>
+        <h4>
+          Default Export:
+          <p>
+            Allows exporting a single component as the default from a module.
+          </p>
+        </h4>
+        <h4>
+          Named Export:
+          <p>Allows exporting multiple items from a module.</p>
+        </h4>
+        <h4>
+          Importing:
+          <p>
+            To use an exported component, you need to import it in the
+            destination file using import syntax.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Other Importing Points</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Naming:
+          <p>Must be capitalized; lowercase for default HTML.</p>
+        </h4>
+        <h4>
+          HTML:
+          <p>
+            Unlike vanilla JS where you can't directly write HTML, in React, you
+            can embed HTML-like syntax using JSX.
+          </p>
+        </h4>
+        <h4>
+          CSS:
+          <p>
+            In React, CSS can be directly imported into component files,
+            allowing for modular and component-specific styling.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Dynamic Components</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Dynamic Content:
+          <p>
+            JSX allows the creation of dynamic and interactive UI components.
+          </p>
+        </h4>
+        <h4>
+          JavaScript Expressions:
+          <p>
+            Using {}, we can embed any JS expression directly within JSX. This
+            includes variables, function calls, and more.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Reusable Components</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Modularity:
+          <p>
+            Components are modular, allowing for easy reuse across different
+            parts of an application
+          </p>
+        </h4>
+        <h4>
+          Consistency:
+          <p>
+            Reusing components ensures UI consistency and reduces the chance of
+            discrepancies.
+          </p>
+        </h4>
+        <h4>
+          Efficiency:
+          <p>
+            Reduces development time and effort by avoiding duplication of code
+          </p>
+        </h4>
+        <h4>
+          Maintainability:
+          <p>
+            Changes made to a reused component reflect everywhere it's used,
+            simplifying updates and bug fixes
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u> * React Working</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>17. Fragments</h4>
+        <h4>18. Map Method</h4>
+        <h4>19. Conditional Rendring</h4>
+        <h4>20. CSS Modules</h4>
+        <h4>21. Passing Children</h4>
+        <h4>22. Event Handling</h4>
+        <h4>22. Passing Data via Props</h4>
+        <h4>23. Passing Function via Props</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Fragments</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>What is Fragments: 
+         <p>Allows grouping of multiple elements without 
+            extra DOM nodes.</p>         
+        </h4>
+        <h4>Why use Fragments:
+         <p>Return multiple elements without a wrapping 
+            parent.</p>
+            <p>Cleaner DOM and consistent styling.</p>
+        </h4>
+        <h4>How to Write Fragment Syntax:
+         <p>[<'React.Fragment'><'/React.Fragment'>]</p>
+         <p>Short: [<>...</>]</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Map Method</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Purpose:
+          <p>
+            Rendering list from array data.
+          </p>
+        </h4>
+        <h4>
+          JSX Elements:
+          <p>
+            Transform array items into JSX.
+          </p>
+        </h4>
+        <h4>
+          Inline Rendering:
+          <p>
+           [{items.map(item => <p key={item.name}>{item.name}</p>)}]
+          </p>
+        </h4>
+        <h4>
+          Key Props:
+          <p>
+            Assign unique key for optmized re-renders. 
+            <p>[<'div key={item.id}>{item.name}</div'>]</p>
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Conditional Rendering</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          Conditional Rendering:
+          <p>
+           - Displaying content based on sertain conditions. <br>
+           - Allows for dynamic user interface.
+          </p>
+        </h4>
+        <h4>
+          Methods:
+          <p>
+            - If else statements: Choose between two block of content. <br>
+            - Ternary operator: Quick way to choose between two options. <br>
+            - Logical operator: Useful for rendering content when a condition is true.
+          </p>
+        </h4>
+        <h4>
+          Benifits:
+          <p>
+            - Enhance user experience. <br>
+            - Reduces unnecessary rendering. <br>
+            - Makes apps more intractive and responsive.
+          </p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>CSS Modules</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          <P>1. Localized class names to avoid global conflicts.</P> 
+        </h4>
+        <h4>
+          <p>2. Styles are scoped to individuals components.</p>
+        </h4>
+        <h4>
+          <P>3. Helps in creating component-specific styles.</P>
+        </h4>
+        <h4>
+          <P>4. Promotes modular and maintainable CSS.</P>
+        </h4>
+        <h4>
+          <P>5. Can use alongside global CSS when needed.</P>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Passing Children</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          <P>1. Children is a special prop for passing elements into components.</P> 
+        </h4>
+        <h4>
+          <p>2. Used for flexible and reusable component designs.</p>
+        </h4>
+        <h4>
+          <P>3. Common in layout or container components.</P>
+        </h4>
+        <h4>
+          <P>4. Accessed with props.children</P>
+        </h4>
+        <h4>
+          <P>5. Can be any content: strings, numbers, JSX, or components.</P>
+        </h4>
+        <h4>
+         <P>6. Enhances component composability and reusablility.</P>
+       </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Events Haandling</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          <P>1. React events use camelCase [onClick].</P> 
+        </h4>
+        <h4>
+          <p>2. Uses synthetic events, not direct browser events.</p>
+        </h4>
+        <h4>
+          <P>3. Events handlers can be fiunction or arrow function.</P>
+        </h4>
+        <h4>
+          <P>4. Use onChange for controlled form inputs.</P>
+        </h4>
+        <h4>
+          <P>5. Avoid inline arrow function in JSX for performence.</P>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Passing Data via Props</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4> Props in React:
+          <P>
+            - Short for properties
+            - Mechanism for passing data.
+            - Read-only by default
+          </P> 
+        </h4>
+        <h4> Usages:
+          <p>
+            - Pass data from parent to child component.
+            - Makes components reusable.
+            - Defined as atributes in JSX.
+          </p>
+        </h4>
+        <h4> Key Points:
+          <P>
+            - Data flows one-way 
+            - Props are immutable.
+            - Used for commnicaion between components.
+          </P>
+        </h4>
+        <h4> Examples:
+          <P>[<'Header title = "myApp"/>']/P>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Passing Function via Props</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>
+          <P>1. Pass dynamic behaviour between components.</P> 
+        </h4>
+        <h4>
+          <p>2. Enables upward communication from child to parent.</p>
+        </h4>
+        <h4>
+          <P>3. Commonly used for event handling.</P>
+        </h4>
+        <h4>
+          <P>4. Parent defines a function, child invokes it.</P>
+        </h4>
+        <h4>
+          <P>5. Enhances component intractivity</P>
+        </h4>
+        <h4>6. Example:
+         <P>[<'button onClick={handleClick}/>']</P>
+       </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections" style="height: auto;">
+      <div class="head">
+        <h1><u> * React Hooks</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>1. Introduction for React Hooks</h4>
+        <h4>2. UseState</h4>
+        <h4>3. UseEffect</h4>
+        <h4>4. UseRef</h4>
+        <h4>5. UseMemo</h4>
+        <h4>6. UseCallback</h4>
+        <h4>7. UseContext</h4>
+        <h4>8. UseReducer</h4>
+        <h4>9. UseLayout</h4>
+        <h4>10. Custom Hook</h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections" >
+      <div class="head">
+        <h1><u>Introduction for React Hooks</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>React Hooks
+          <p>- Hooks were added to React in version 16.8. <br>- Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.</p>
+        </h4>
+        <h4>What is Hook ?
+          <p>- Hooks allow us to "hook" into React features such as state and lifecycle methods.</p>
+        </h4>
+        <h4>Hooks Rules
+          <p>- Hooks can only be called inside React function components.</p>
+          <p>- Hooks can only be called at the top level of a component.</p>
+          <p>- Hooks cannot be conditional</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections" >
+      <div class="head">
+        <h1><u>UseState</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseState
+          <p>- The React useState Hook allows us to track state in a function component.</p>
+          <p>- State generally refers to data or properties that need to be tracking in an application.</p>
+        </h4>
+        <h4>Example:  <br>
+        <span>import {useState} from 'react'; <br> <br>
+
+          function Increament () { <br> 
+            const [count, setCount] = useState(0); <br> <br>
+            return ( <br>
+            <><br>
+            <'h1'> Count : {count}<'/h1'> <br>
+            <'button onClick={() => setCount(count + 1)}'>Increament<'/button'> <br>
+             <'/'> <br>
+            )
+          };
+        </span>
+      </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections" style="height: auto;" >
+      <div class="head">
+        <h1><u>UseEffect</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseEffect 
+          <p>- The useEffect Hook allows you to perform side effects in your components.</p>
+        </h4>
+        <h4>Side Effects are some Example :
+          <p>- Fetching data from API</p>
+          <P>- Directly updating the DOM</P>
+          <P>- Timers like setTimeOut & setInterval</P>
+        </h4>
+        <h4>Example:  <br>
+        <span>import {useState, useEffect} from 'react'; <br> <br>
+
+          function Increament () { <br> 
+            const [count, setCount] = useState(0); <br> 
+            useEffect(()=>{ <br>
+              setInterval(()=>{ <br>
+                setCount(count + 1) }, 2000) <br>
+            }, [count]) <br> <br>
+
+            return ( <br>
+            <><br>
+            <'h1'>This is the Count : {count}<'/h1'> <br>
+             <'/'> <br>
+                ) <br>
+          };
+        </span>
+      </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections"  >
+      <div class="head">
+        <h1><u>UseRef</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseRef
+          <p>- The useRef Hook allows you to persist values between renders.</p>
+          <p>- It can be used to store a mutable value that does not cause a re-render when updated.</p>
+          <p>- It can be used to access a DOM element directly.</p>
+        </h4>
+        <h4>Accessing DOM Elements
+          <p>- In general, we want to let React handle all DOM manipulation.</p>
+          <p>- But there are some instances where useRef can be used without causing issues.</p>
+          <p>- In React, we can add a ref attribute to an element to access it directly in the DOM.</p>
+        </h4>
+        <h4>Tracking State Changes
+          <p>- The useRef Hook can also be used to keep track of previous state values.</p>
+          <p>- This is because we are able to persist useRef values between renders.</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections"  >
+      <div class="head">
+        <h1><u>UseMemo</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseMemo
+          <p>- The React useMemo Hook returns a memoized value.</p>
+          <p>- The useMemo Hook only runs when one of its dependencies update.</p>
+          <p>- The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running.</p>
+        </h4>
+        <h4>Notes : <br>
+          <span>- Think of memoization as caching a value so that it does not need to be recalculated.</span> <br>
+          <span>- The useMemo and useCallback Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.</span>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections"  >
+      <div class="head">
+        <h1><u>UseCallback</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseCallback
+          <p>- The React useCallback Hook returns a memoized callback function.</p>
+          <p>- This allows us to isolate resource intensive functions so that they will not automatically run on every render.</p>
+          <p>- The useCallback Hook only runs when one of its dependencies update.</p>
+        </h4>
+        <h4>Notes : <br>
+          <span>- Think of memoization as caching a value so that it does not need to be recalculated.</span> <br>
+          <span>- The useCallback and useMemo Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.</span>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections" style="height: auto;"  >
+      <div class="head">
+        <h1><u>UseContext</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseContext
+          <p>- React Context is a way to manage state globally.</p>
+          <p>- It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.</p>
+        </h4>
+        <h4>Prop Drilling 
+          <p>- Context API addresses prop drilling components composition is an alterative.</p>
+        </h4>
+        <h4>The Problem
+          <p>- State should be held by the highest parent component in the stack that requires access to the state.</p>
+          <p>- To illustrate, we have many nested components. The component at the top and bottom of the stack need access to the state.</p>
+          <p>- To do this without Context, we will need to pass the state as "props" through each nested component. This is called "prop drilling".</p>
+        </h4>
+        <h4>The Solution
+          <p>- The solution is to create context.</p>
+          <p>- To create context, you must Import createContext and initialize it.</p>
+          <p>- Next we'll use the Context Provider to wrap the tree of components that need the state Context.</p>
+          <p>- Wrap child components in the Context Provider and supply the state value.</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>UseReducer</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>UseReducer 
+          <p>- The useReducer Hook is similar to the useState Hook. It allows for custom state logic.</p>
+          <p>- If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.</p>
+          <p>- UseReducer is a hook in react offer more control over state options compared to useState, especially for complex state logic.</p>
+        </h4>
+        <h4>Syntax 
+          <p>- The useReducer Hook accepts two arguments.</p>
+          <p>- useReducer(<'reducer'>, <'initialState'>)</p>
+          <p>- The reducer function contains your custom state logic and the initialStatecan be a simple value but generally will contain an object.</p>
+        </h4>
+        <h4>Notes : <br>
+          <span>- All of the logic to add, delete, and complete a todo could be contained within a single useReducer Hook by adding more actions.</span>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Custom Hooks</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>Custom Hooks in React
+          <p>- Hooks are reusable functions.</p>
+          <p>- When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.</p>
+          <p>- Custom Hooks start with "use". Example: useFetch.</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+    <div class="intro-sections">
+      <div class="head">
+        <h1><u>Important Note</u></h1>
+        <img src="react-logo@3x.svg" alt="" />
+      </div>
+      <div class="intro-content">
+        <h4>Important Note
+          <p>- This hooks are important hooks in react and all hooks Examples are my react folder</p>
+          <p>- Not cover the react router in this note.</p>
+        </h4>
+      </div>
+    </div>
+    <hr />
+
+  </body>
+</html>

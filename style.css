@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Play:wght@400;700&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #1f2026;
+  color: #b9b9b9;
+}
+.intro-sections {
+  height: 100vh;
+  padding: 20px 60px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head img {
+  width: 180px;
+}
+.intro-content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+.intro-sections h6 {
+  color: #fff;
+}
+.intro-content p {
+  color: rgb(235, 235, 109);
+}
+.code-container {
+  height: 25%;
+  width: 50%;
+  background: #fff;
+}
+.intro-content span {
+  color: rgb(63, 150, 250);
+  font-weight: 100;
+}
